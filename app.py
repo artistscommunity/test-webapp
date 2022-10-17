@@ -6,4 +6,6 @@ app = Flask(__name__)
 def home():
   return 'works!'
   
-app.run(port=2602)
+  
+if __name__ == '__main__':
+  app.run()
